@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontController;
 
 Route::get('/',[FrontController::class,'home'])->name('/home');
+Route::get('/contact',[FrontController::class,'cantact'])->name('/contact');
 
 
 Route::middleware([
